@@ -2,8 +2,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Represents a user's identity, preferences, and location data.
+/*
+ * This class Represents a user's identity, preferences, and location data.
  */
 public class UserProfile {
   private final String name;
@@ -29,7 +29,7 @@ public class UserProfile {
     }
   }
 
-  // Getters
+  // Getters 
   public String getName() { return name; }
   public String getGender() { return gender; }
   public String getGenderPreference() { return genderPreference; }

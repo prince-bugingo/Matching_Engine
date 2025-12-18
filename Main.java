@@ -2,6 +2,8 @@ import java.util.Arrays;
 
 public class Main {
   public static void main(String[] args) {
+
+    
     // Create User A (NYC area)
     UserProfile alice = new UserProfile("Alice", "Female", "Male", 40.71, -74.00);
     alice.addInterest("Coding");
