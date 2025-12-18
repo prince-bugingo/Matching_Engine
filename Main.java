@@ -28,4 +28,14 @@ public class Main {
     System.out.printf("Match between %s and %s: %.2f%%%n", 
         alice.getName(), bob.getName(), finalScore);
   }
+
+
+
+
+
+
+
+  /*
+  The system design pattern used in this application is the Strategy Design Pattern.
+   */
 }

@@ -1,7 +1,7 @@
 import java.util.List;
 
 /*
- * The core engine that aggregates multiple strategies to find a final match score.
+ * The core matiching engin,  engine that aggregates multiple strategies to find a final match score.
  */
 public class MatchingEngine {
   private final List<MatchingStrategy> strategies;
