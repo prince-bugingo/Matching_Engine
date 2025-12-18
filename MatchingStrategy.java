@@ -1,9 +1,9 @@
-/**
- * Defines a strategy for calculating a compatibility score between two user profiles.
+/*
+ * This class Defines a strategy for calculating a compatibility score between two user profiles.
  */
 public interface MatchingStrategy {
   /**
-   * Calculates a compatibility score between 0.0 (no match) and 1.0 (perfect match).
+   * Calculates a compatibility score between if it is  0.0, then it is  (no match) and 1.0 is (perfect match).
    *
    * @param u1 The first user profile.
    * @param u2 The second user profile.

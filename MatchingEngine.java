@@ -1,6 +1,6 @@
 import java.util.List;
 
-/**
+/*
  * The core engine that aggregates multiple strategies to find a final match score.
  */
 public class MatchingEngine {
@@ -11,7 +11,7 @@ public class MatchingEngine {
   }
 
   public double getFinalMatchPercentage(UserProfile u1, UserProfile u2) {
-    // 1. Mandatory Requirement: Gender Preferences must match
+    // 1. Mandatoryy Requirement: thE Gendar Prefelences must match
     if (!isGenderCompatible(u1, u2)) {
       return 0.0;
     }

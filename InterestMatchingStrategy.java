@@ -21,3 +21,11 @@ public class InterestMatchingStrategy implements MatchingStrategy {
     return (double) commonCount / Math.max(interests1.size(), interests2.size());
   }
 }
+
+/*
+LocationMatchingStrategyIntent: Ensure the match is realistic.The Logic: It uses a simplified version of the distance 
+formula:$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+The Why: Even if two people love the same 50 hobbies, a match is less likely to work if they live 5,000 miles apart. This strategy penalizes the score based on distance.
+
+
+*/
